@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.user_btn {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 6px 10px;
+    width: 30%;
+    background-color: #000124;
+    color: rgb(107, 189, 209);
+    font-size: 1.5rem;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 0px 10px white;
+    transition: all 1s ease;
+    background-color: black;
+}
+
+body {
+    background: url("images/bg.jpg") no-repeat center center/cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px 40px;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 6px 3px rgb(85, 113, 255);
+    color: white;
+    padding: 40px 0;
+}
+
+.content:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 40px;
+    transition: all 1s ease-in;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+.name {
+    font-size: 1.5rem;
+    margin: 4px;
+}
+
+.email {
+    color: rgb(95, 183, 255);
+}
